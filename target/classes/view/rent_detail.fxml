@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="formNode" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RentDetailController">
+   <children>
+      <Label layoutX="227.0" layoutY="20.0" text="Rent Detail">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="rentIdLabel" layoutX="53.0" layoutY="89.0" text="ID :" />
+      <Label fx:id="fromLabel" layoutX="53.0" layoutY="127.0" text="From : " />
+      <Label fx:id="totalLabel" layoutX="53.0" layoutY="165.0" text="Total : " />
+      <Label fx:id="returnedOnLabel" layoutX="53.0" layoutY="209.0" text="Returned on :" />
+      <Label fx:id="customerIdLabel" layoutX="249.0" layoutY="89.0" text="Customer ID : " />
+      <Label fx:id="toLabel" layoutX="249.0" layoutY="127.0" text="To :" />
+      <Label fx:id="refundableDepositLabel" layoutX="249.0" layoutY="165.0" text="Refundable Deposit :" />
+      <Label fx:id="daysOverdueLabel" layoutX="249.0" layoutY="209.0" text="Days Overdue :" />
+      <Label fx:id="carIdLabel" layoutX="442.0" layoutY="89.0" text="Car ID :" />
+      <Label fx:id="dailyRentalLabel" layoutX="442.0" layoutY="127.0" text="Daily Rental : " />
+      <Label fx:id="advancePaymentLabel" layoutX="442.0" layoutY="165.0" text="Advance Payment :" />
+      <Label fx:id="balanceLabel" layoutX="439.0" layoutY="209.0" text="Balance :" />
+      <Label fx:id="createdByLabel" layoutX="39.0" layoutY="299.0" text="Created By : " />
+      <Label fx:id="updatedByLabel" layoutX="39.0" layoutY="341.0" text="Updated By : " />
+      <Button layoutX="453.0" layoutY="316.0" mnemonicParsing="false" onAction="#closeBtnOnAction" text="Close" />
+   </children>
+</AnchorPane>

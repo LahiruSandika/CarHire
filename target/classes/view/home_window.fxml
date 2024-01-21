@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootNode" prefHeight="565.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeWindowController">
+   <children>
+      <AnchorPane fx:id="headerNode" prefHeight="101.0" prefWidth="751.0">
+         <children>
+            <Label fx:id="userLabel" layoutX="608.0" layoutY="64.0" text="Logged in as:" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="navNode" layoutY="101.0" prefHeight="463.0" prefWidth="194.0">
+         <children>
+            <Button layoutX="77.0" layoutY="50.0" mnemonicParsing="false" onAction="#rentBtnOnAction" text="Rent" />
+            <Button layoutX="63.0" layoutY="140.0" mnemonicParsing="false" onAction="#customerBtnOnAction" text="Customer" />
+            <Button layoutX="80.0" layoutY="219.0" mnemonicParsing="false" onAction="#carBtnOnAction" text="Car" />
+            <Button layoutX="47.0" layoutY="305.0" mnemonicParsing="false" onAction="#manageDbBtnOnAction" text="Manage Database" />
+            <Button layoutX="70.0" layoutY="404.0" mnemonicParsing="false" onAction="#logoutBtnOnAction" text="Logout" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="formNode" layoutX="194.0" layoutY="101.0" prefHeight="463.0" prefWidth="558.0" />
+   </children>
+</AnchorPane>
